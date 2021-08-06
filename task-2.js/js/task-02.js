@@ -18,3 +18,4 @@ const eachEl = ingredients.map(ingredient => {
 const ingredEl = document.querySelector('#ingredients')
 
 ingredEl.append(...eachEl)
+console.log(document)
